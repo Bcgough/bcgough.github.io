@@ -1,15 +1,66 @@
 <!DOCTYPE HTML>
 <html>
     <head> 
-        <img src="https://lh3.googleusercontent.com/r_yR4hZdxkCmFcx6ukJn0F3bUE0INvC54E4ukSLSwK2HqH1bnD6qPeuOdIBN2AVz2uaK07eUB2ws0SMFSj09GVCpYk0Hq_L7QNQ1_mTKurAOssJ69PsJvF9bi82lyOzpY7d-_IPC3fwVE-zgtySvYPIhAhIwQgdlA4NcjynkxEtCDq8NZFLof04OSR9mgAImdlQ2y7kEKbLcRmVslGuvH2W7tL9iBeXha7jgXL3sJpyIEC3fc0cFiDvi8DmJdHdWSmhxP-ePKy7VPCIu16F4BjrOB3eThVz6QDCuUFN5uF35wFeFmFuVMe3Hetj96uyKCT1isa8VugtLuHEUd3a8PM0V1-DvtJC47gHWVnjuS6MMazBqVxYGucb84Q100x7QCrAlyWH8rB5dznPJpNTX8Z4fEDvJ9nk8PR9HXBFh5dxpOVrPfssYlJm262c1HjxVzGeVbfdDrKfX16_UUWRsjLLEYpMQmbA47CauhHuVhHqttlEttOK3zjxSE24qvlID2YFU7YfUei2G0TFRi6UPdjHK_z0ACIxCrvmRkA-G8zpH9o_LkgjIV9XgmAHYHynL1C3tMV4e7-Bs7hC0XsS1gFM6y9bxq2G9ZXsvpUUi40MVttuSVgVn=w1920-h1080-no" height="100" width="190">
-        <style>
+          <style>
+         .Bgtext {
+                    position: fixed;
+                    bottom: 720px;
+                    right: -150px;
+                    width: 300px;
+                    }
+            
+            .dropdown {
+                position: relative;
+                display: inline-block;
+            }
+            
+            .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: #f9f9f9;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                padding: 12px 16px;
+                z-index: 1;
+            }
+            
+            .dropdown:hover .dropdown-content {
+                display: block;
+            }
+            </style>
+            </head>
+            <body>
+             <div class="Bgtext">
+                 <h1>BG INC.</h1>
+             </div>   
+            <div class="dropdown">
+              <span><img src="https://www.newfangled.com/wp-content/uploads/2014/08/stuffcontentmgrfiles2ac67e44c30a21635f8a9d498f832bc1cmisc_resized80_313_257_hamenu.png" height="42" width="42"></img></span>
+              <div class="dropdown-content">
+             
+                    <ul>
+                      
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                    
+                    </ul>
+            
+          
+              </div>
+            </div>
+          <style>
             body {
-                background: rgb(37, 27, 50);
+                background: rgb(255, 255, 255);
                 color: rgb(15, 20 , 45);
                 padding: 10px;
                 font-family: arial;
             }
             header {
+                background: rgb(90, 90, 90);
+                margin: 0px;
+                margin-bottom: 0px;
+                display: flex;
+                padding: 0px;
+                
                 font-size: 1.5em;
                 font-weight: bold;
             }
@@ -21,7 +72,8 @@
             /* navigation menu */
             nav {
                 background: rgb(90, 90, 90);
-                margin: 0 auto;
+                margin: 30px;
+                margin-bottom: 20px;
                 display: flex;
                 padding: 40px;
             }
@@ -29,7 +81,7 @@
                 display: flex;
                 align-items: center;
                 color: rgb(255, 255, 255);
-                flex: 1;
+                flex: 3;
             }
             nav ul {
                 list-style-image: none;
@@ -47,6 +99,7 @@
             main {
                 background: rgb(152, 152, 152);
                 display: flex;
+                margin-top:30px;
             }
             [class=sidebar] {
                 margin-right: 25px;
@@ -54,31 +107,26 @@
             }
             [class=sidebar] img {
                 width: 200px;
+                 position: fixed;
+                    bottom: 400px;
+                    right: 700px;
             }
             [class=content] {
                 flex: 1;
-                padding: 15px;
+                padding: 30px;
             }
             [class=interests] header {
+                margin-left:100px;
                 font-size: 1.25em;
             }
         </style>
     </head>
-
-    <body>
-      
-      <div id="all-contents">
-        <nav>
-             <h1>Bg Inc.</h1>
-            <ul>
-              
-                <li><a href="index.html">Home</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-            
-            </ul>
-            
-        </nav>
         
+
+
+    
+    <body>
+ 
         <main>
             <div class="sidebar">
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg3QgPzHWAfaceDabym-hW45rsnbSkTXMZ9AtnFYWQdiOhHKOy"></img>
